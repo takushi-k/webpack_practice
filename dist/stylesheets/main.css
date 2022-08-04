@@ -1,4 +1,24 @@
-body{
+.footer {
+  background-color: #ddd;
+}
+
+body {
   color: lightblue;
 }
 
+.content {
+  margin-right: 16px;
+}
+.content .title, .content .title-sm, .content .title-md, .content .title-lg {
+  font-size: 24px;
+  color: orange;
+}
+.content .title-lg {
+  font-size: 32px;
+}
+.content .title-md {
+  font-size: 28px;
+}
+.content .title-sm {
+  font-size: 14px;
+}
